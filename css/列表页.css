@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/*导航条pc端*/
+#all-1{
+	max-width: 960px;
+	margin: 0 auto;
+	background: #F8F8F8;
+}
+/*LOGO*/
+.logo{
+	padding: 0;
+	position:relative;
+	z-index:9;
+	}
+.logo-box{
+	width: 140px;
+	background:-webkit-linear-gradient(left,#1c1a4c,#3177b9);
+	}
+.logo span{
+	display: block;
+	color: #fff;
+	}
+.logo1{
+	background: #fff;
+	padding: 25px 10px;
+	border-bottom-right-radius: 40px;
+	}
+.logo1 img{
+    width: 80%;	
+}
+.logo1-m{
+	font-size: 25px;
+	font-weight:bold;
+	color:#0B5ED7 ;
+}
+.logo2{
+	height: 0;
+	background:-webkit-linear-gradient(left,#1c368c,#3177b9);
+	line-height: 50px;
+	padding-left: 10px;
+	overflow: hidden;
+	}
+.logo3{
+	height: 50px;
+	background: -webkit-linear-gradient(left,#1c1a4c,#3177b9);
+	line-height: 50px;
+	padding-left: 10px;
+	}
+/*轮播图*/
+#all-2 #myCarousel{
+	margin-top: -20px;	
+}
+/*main*/
+#all-3{
+	max-width: 960px;
+}
+/*main左侧*/
+/*标签页*/
+#myTabContent{
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+}
+.myTabContent-1-1 .left>img{
+	width: 200px;
+}
+.myTabContent-1-1{
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed #CCCCCC;
+}
+/*分页*/
+.list li{
+	margin:5px;
+	background: #EFEFEF;
+}
+.list li a{
+	color: #022573;
+	padding: 0 10px;
+	text-decoration: none;
+}
+.list li a:hover{
+	background:  #022573;
+	color: white;
+}.list li:hover{
+	background:  #022573;
+}
+.list .active{
+	background:  #022573;
+}
+.list .active a{
+	color: white;
+}
+/*main右侧*/
+.container-right>h4{
+	color: #3154BC;
+	padding: 10px 0 0 0;
+}
+.container-right .col-md-5>img{
+	width: 120%;
+}
+.container-right-1{
+	margin-bottom: 20px;
+	padding: 10px 0;
+	box-shadow: 3px 3px 3px #CCCCCC;
+	}
+/*main底部*/
+.container-down{	
+	background: #122B40;
+	margin-top: 10px;
+}
+.container-down .container{
+	max-width: 960px;
+	color: white;
+}
+.container-down a{
+	color: white;
+}
+/*底部*/
+#all-4{
+	color: white;
+	background: -webkit-linear-gradient(#022A75,#034C84);
+}
+#all-4 .container{
+	max-width: 960px;
+}
+#all-4 .row-up{
+	padding-top:20px;
+}
+#all-4 .row-up>div{
+	margin-bottom:20px;
+}
+#all-4 .row-up-1 img,.row-up-1-m img{
+	width: 10%;
+}
+#all-4 .row-up-2 img{
+	width: 40%;
+}
+#all-4 .row-up-2-m img{
+	width: 20%
+}
+.row-down>ul>li{
+	border-right:1px solid white ;
+}
+.row-down .row-down-last{
+	border-right: none;
+}

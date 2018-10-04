@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background: #EFEFEF;
+}
+img{
+	width: 100%;
+}
+a:hover{
+	text-decoration: none;
+}
+/*导航条pc端*/
+#all-1{
+	max-width: 960px;
+	margin: 0 auto;
+	background: #F8F8F8;
+}
+/*LOGO*/
+.logo{
+	padding: 0;
+	position:relative;
+	z-index:9;
+	}
+.logo-box{
+	width: 140px;
+	background:-webkit-linear-gradient(left,#1c1a4c,#3177b9);
+	}
+.logo span{
+	display: block;
+	color: #fff;
+	}
+.logo1{
+	background: #fff;
+	padding: 25px 10px;
+	border-bottom-right-radius: 40px;
+	}
+.logo1 img{
+    width: 80%;	
+}
+.logo1-m{
+	font-size: 25px;
+	font-weight:bold;
+	color:#0B5ED7 ;
+}
+.logo2{
+	height: 0;
+	background:-webkit-linear-gradient(left,#1c368c,#3177b9);
+	line-height: 50px;
+	padding-left: 10px;
+	overflow: hidden;
+	}
+.logo3{
+	height: 50px;
+	background: -webkit-linear-gradient(left,#1c1a4c,#3177b9);
+	line-height: 50px;
+	padding-left: 10px;
+	}
+
+/*main*/
+/*pc端一*/
+#all-2{
+	background: url(../img/ultrasound-l.jpg) no-repeat;
+    padding-top:6%;
+	padding-bottom: 10%;
+	background-size: cover;
+	min-width: 960px;
+	margin: 0 auto;
+	position: relative;
+	top: -20px;
+}
+#all-2 .content{
+	line-height: 25px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+#all-2 .content h2{
+	font-size: 42px;
+	font-weight: bold;
+}
+#all-2 .content p{
+	font-size: 18px;
+	width: 380px;
+	line-height: 25px;
+}
+/*移动端一*/
+#all-2-m .content{
+	max-width: 960px;
+	margin: 0 auto;
+}
+#all-2-m .content h2{
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+#all-2-m .content p{
+	font-size: 18px;
+	width: 320px;
+	line-height: 25px;
+	padding-left: 10px;
+	
+}
+/*pc端二*/
+#all-3{
+	background: url(../img/li-l.jpg) no-repeat;
+    padding-top:6%;
+	padding-bottom: 10%;
+	background-size: cover;
+	min-width: 960px;
+	margin: 0 auto;
+	position: relative;
+	top: -20px;
+	color: white;
+}
+#all-3 .content{
+	line-height: 25px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+#all-3 .content h2{
+	font-size: 42px;
+	font-weight: bold;
+}
+#all-3 .content p{
+	font-size: 18px;
+	width: 380px;
+	line-height: 25px;
+}
+/*移动端二*/
+#all-3-m .content{
+	max-width: 960px;
+	margin: 0 auto;
+}
+#all-3-m .content h2{
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+#all-3-m .content p{
+	font-size: 18px;
+	width: 320px;
+	line-height: 25px;
+	padding-left: 10px;
+	
+}
+/*pc端三*/
+#all-4{
+	background: url(../img/philips-watch-left-l.jpg) no-repeat;
+    padding-top:6%;
+	padding-bottom: 10%;
+	background-size: cover;
+	min-width: 960px;
+	margin: 0 auto;
+	position: relative;
+	top: -20px;
+	color: white;
+}
+#all-4 .content{
+	line-height: 25px;
+	max-width: 960px;
+	margin: 0 auto;
+	margin-left: 800px;
+}
+#all-4 .content h2{
+	font-size: 42px;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px #CCCCCC;
+}
+#all-4 .content>button{
+	margin-left: 300px;
+}
+/*移动端三*/
+#all-4-m .content{
+	max-width: 960px;
+	margin: 0 auto;
+}
+#all-4-m .content h2{
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+/*注册PC端*/
+#all-5 .right{
+	background: url(../img/LM-MyPhilips-Banner.jpg) no-repeat;
+	padding-bottom: 20%;
+	background-size: 100%;
+}
+/*查询PC端*/
+#all-6{
+	background: #15A9D4;
+	padding-top: 1%;
+}
+#all-6 a{
+	color: black;
+}
+/*底部*/
+#all-7{
+	color: white;
+	background: -webkit-linear-gradient(#022A75,#034C84);
+}
+#all-7 .container{
+	max-width: 960px;
+}
+#all-7 .row-up{
+	padding-top:20px;
+}
+#all-7 .row-up>div{
+	margin-bottom:20px;
+}
+#all-7 .row-up-1 img,.row-up-1-m img{
+	width: 10%;
+}
+#all-7 .row-up-2 img{
+	width: 40%;
+}
+#all-7 .row-up-2-m img{
+	width: 20%
+}
+.row-down>ul>li{
+	border-right:1px solid white ;
+}
+.row-down .row-down-last{
+	border-right: none;
+}
